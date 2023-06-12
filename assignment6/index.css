@@ -1,0 +1,21 @@
+body{
+    font-size:20px;
+}
+header{
+    font-weight: bold;
+}
+.actor{
+    font-weight: bold;
+}
+.quote{
+    font-weight: bold;
+}
+/* #actor{
+    color:red;
+}
+#quote{
+    color:green;
+} */
+#nav-actor:hover{
+    color:red;
+}

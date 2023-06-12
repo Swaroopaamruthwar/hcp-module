@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    width:100vw;
+    height:100vh;
+    margin:0px auto;
+} */
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    width: 358px;
+    height: 756px;
+    mix-blend-mode: normal;
+    opacity: 1;
+    background-color: aliceblue;
+
+
+}
+
+.row1 {
+    height: 378px;
+}
+
+.row1-heading {
+    position: absolute;
+    margin: 0px;
+    top: 9px;
+    left: 51px;
+    width: 258px;
+    height: 125px;
+    text-align: center;
+    font: normal normal bold 68px/38px Open Sans;
+    letter-spacing: 0px;
+    color: #4CA399;
+    opacity: 1;
+    font-size: 23px;
+}
+
+.row1-semiheading {
+    position: absolute;
+    top: 99px;
+    left: 60px;
+    width: 242px;
+    height: 108px;
+    text-align: center;
+    font: normal normal 400 26px/36px Open Sans;
+    letter-spacing: 0px;
+    color: #C1DE2F;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+.row1-content {
+    position: absolute;
+    top: 257px;
+    left: 28px;
+    width: 304px;
+    height: 126px;
+    text-align: center;
+    font: normal normal normal 16px/28px Open Sans;
+    letter-spacing: 0px;
+    color: #ABABAD;
+    opacity: 1;
+}
+
+.row2 {
+    height: 378px;
+    width: 100%;
+    /* top: 399px;
+    left: 0px; */
+}
+
+.row2-box1 {
+    position: absolute;
+    width: 357px;
+    height: 459px;
+    background: #2BB3B1 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+
+.row2-heading1 {
+    position: relative;
+    width: 176px;
+    height: 86px;
+    top: 0px;
+    left: 84px;
+    text-align: center;
+    font: normal normal 600 25px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.price {
+    font: normal normal 700 67px/10px Avenir;
+    text-align: center;
+}
+
+.row2-box1-cont1 {
+    position: absolute;
+    width: 113px;
+    top: 93px;
+    left: 99px;
+    height: 94px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font: normal normal normal 24px/24px Open Sans;
+}
+
+.row2-box1-cont2 {
+    position: absolute;
+    top: 168px;
+    left: 0px;
+    width: 360px;
+    height: 33px;
+    text-align: center;
+    font: normal normal normal 23px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #E6E6E6;
+}
+
+button {
+    position: absolute;
+    top: 220px;
+    left: 25px;
+    width: 301px;
+    height: 64px;
+    background: #BFDF32 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    outline: none;
+    border: none;
+    font: normal normal normal 24px/40px Open Sans;
+}
+
+.row2-box2 {
+    position: absolute;
+    top: 669px;
+    left: 0px;
+    width: 100%;
+    height: 215px;
+    background: #2BB3B1 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.row2-heading2 {
+    position: absolute;
+    width: 176px;
+    height: 75px;
+    left: 59px;
+    top: 2px;
+    text-align: center;
+    font: normal normal 600 29px/39px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+ul li {
+    list-style: none;
+}
+
+.row2-box2-content {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    height: 192px;
+    text-align: left;
+    font: normal normal normal 20px/40px Open Sans;
+    letter-spacing: 0px;
+    color: #FAFAFA;
+    opacity: 1;
+    bottom: 0px;
+    background: #2BB3B1 0% 0% no-repeat padding-box;
+}
+
+
+@media screen and (min-width: 1480px) {
+    .container {
+        /* Layout Properties */
+        top: 0px;
+        left: 0px;
+        width: 1480px;
+        height: 833px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .row1 {
+        height: 416px;
+        width: 100%;
+    }
+
+    .row1-heading {
+        position: absolute;
+        top: 51px;
+        left: 89px;
+        width: 477px;
+        height: 57px;
+        text-align: left;
+        font: normal normal bold 23px/44px Open Sans;
+        letter-spacing: 0px;
+        color: #4CA399;
+        opacity: 1;
+        display: block;
+    }
+
+    .row1-semiheading {
+        top: 153px;
+        left: 86px;
+        width: 652px;
+        height: 43px;
+        text-align: left;
+        font: normal normal 600 20px/43px Open Sans;
+        letter-spacing: 0px;
+        color: #C1DE2F;
+        opacity: 1;
+    }
+
+    .row1-content {
+        top: 232px;
+        left: 86px;
+        width: 803px;
+        height: 73px;
+        text-align: left;
+        font: normal normal normal 24px/40px Open Sans;
+        letter-spacing: 0px;
+        color: #ABABAD;
+        opacity: 1;
+    }
+
+    .row2 {
+
+        height: 416px;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .row2-box1 {
+        position: absolute;
+        background: #2BB3B1 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 740px;
+        height: 100%;
+    }
+
+    .row2-heading1 {
+        top: 40px;
+        left: 89px;
+        width: 740px;
+        height: 49px;
+        text-align: left;
+        font: normal normal 600 36px/49px Open Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .row2-box1-cont1 {
+        position: absolute;
+        top: 147px;
+        left: 89px;
+        width: 290px;
+        height: 97px;
+        text-align: left;
+        letter-spacing: NaNpx;
+        opacity: 1;
+    }
+
+    .row2-box1-cont2 {
+        position: absolute;
+        top: 196px;
+        left: 86px;
+        width: 423px;
+        height: 38px;
+        text-align: left;
+        font: normal normal normal 28px/38px Open Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    button {
+        position: absolute;
+        top: 261px;
+        left: 160px;
+        width: 349px;
+        height: 73px;
+        background: #BFDF32 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 8px;
+        opacity: 1;
+        outline: none;
+        border: none;
+        font: normal normal normal 24px/40px Open Sans;
+    }
+
+    .row2-box2 {
+        position: absolute;
+        top: 0px;
+        left: 740px;
+        width: 740px;
+        height: 100%;
+        /* UI Properties */
+        background: #4ABEBD 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    .row2-heading2 {
+        position: absolute;
+        top: 18px;
+        left: 38px;
+        width: 177px;
+        height: 49px;
+        text-align: left;
+        font: normal normal 600 36px/49px Open Sans;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    .row2-box2-content {
+        position: absolute;
+        top: 101px;
+        left: 38px;
+        width: 344px;
+        height: 273px;
+        text-align: left;
+        font: normal normal normal 24px/40px Open Sans;
+        letter-spacing: 0px;
+        color: #FAFAFA;
+        opacity: 1;
+        background: #4ABEBD 0% 0% no-repeat padding-box;
+
+    }
+}
